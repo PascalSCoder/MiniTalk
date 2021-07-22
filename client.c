@@ -6,14 +6,14 @@
 /*   By: pspijkst <pspijkst@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/06/08 20:49:16 by pspijkst      #+#    #+#                 */
-/*   Updated: 2021/06/29 12:20:36 by pspijkst      ########   odam.nl         */
+/*   Updated: 2021/07/22 21:32:30 by pspijkst      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "shared/minitalk.h"
 #include <stdlib.h>
 
-static void	sendmessage(int ascii)
+static void	sendmessage(unsigned char ascii)
 {
 	int	i;
 	int	bit;

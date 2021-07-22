@@ -6,7 +6,7 @@
 /*   By: pspijkst <pspijkst@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/06/08 20:44:16 by pspijkst      #+#    #+#                 */
-/*   Updated: 2021/07/15 12:11:14 by pspijkst      ########   odam.nl         */
+/*   Updated: 2021/07/22 21:32:13 by pspijkst      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define MINITALK_H
 
 # define SIGNALSLEEP 500
-# define BITCOUNT 7
+# define BITCOUNT 8
 # define BUFFERSIZE 10
 # define TERMINATOR 0
 
