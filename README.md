@@ -1,2 +1,2 @@
 # MiniTalk
-Client to server messaging project, using only 2 signals
+Client to server messaging project, using 2 signals to transfer bits
