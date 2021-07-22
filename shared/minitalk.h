@@ -6,7 +6,7 @@
 /*   By: pspijkst <pspijkst@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/06/08 20:44:16 by pspijkst      #+#    #+#                 */
-/*   Updated: 2021/07/22 21:32:13 by pspijkst      ########   odam.nl         */
+/*   Updated: 2021/07/22 21:33:26 by pspijkst      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # define BUFFERSIZE 10
 # define TERMINATOR 0
 
-# ifdef OnLinux
+# ifdef __linux__
 #  define _GNU_SOURCE
 # endif
 

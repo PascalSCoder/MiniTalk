@@ -6,7 +6,7 @@
 #    By: pspijkst <pspijkst@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/06/08 21:02:55 by pspijkst      #+#    #+#                  #
-#    Updated: 2021/06/29 12:52:35 by pspijkst      ########   odam.nl          #
+#    Updated: 2021/07/22 21:33:47 by pspijkst      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,11 +15,6 @@ NAME2	=	client
 SRC		=	shared/ft_atoi_strict.c shared/ft_itoa.c\
 			shared/bit_tools.c shared/writes.c shared/ft_realloc_double.c
 CFLAGS	=	-Wall -Wextra -Werror -fsanitize=address
-OS		=	$(shell uname)
-
-ifeq ($(OS),Linux)
-	CFLAGS += -D OnLinux=1
-endif
 
 all: $(NAME) $(NAME2)
 
