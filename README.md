@@ -11,3 +11,6 @@ For ascii printable characters 7 bit system would be sufficient and more efficie
 3. Read the server PID manually from the terminal
 4. Execute the client, first argument being the PID from server
 5. The server should now display any argument passed to client!
+
+Possible updates/issues:
+1. Bitshifting for bit extraction
